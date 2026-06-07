@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Remote Structural Collapse Test Lab</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --panel: #111827;
+      --ink: #e5e7eb;
+      --muted: #9ca3af;
+      --accent: #38bdf8;
+      --accent2: #22c55e;
+      --line: #334155;
+    }
+    body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, sans-serif; background: var(--bg); color: var(--ink); line-height: 1.6; }
+    header { padding: 72px 24px 48px; background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 65%, #0369a1 100%); }
+    .wrap { max-width: 1100px; margin: 0 auto; }
+    h1 { font-size: clamp(2.2rem, 6vw, 4.8rem); line-height: 1.05; margin: 0 0 18px; letter-spacing: -0.04em; }
+    h2 { font-size: 1.8rem; margin-top: 0; }
+    h3 { margin-bottom: 4px; }
+    p.lead { font-size: 1.25rem; max-width: 820px; color: #dbeafe; }
+    .badge { display: inline-block; border: 1px solid rgba(255,255,255,.35); color: #e0f2fe; padding: 6px 12px; border-radius: 999px; margin-bottom: 22px; font-size: .9rem; }
+    main { padding: 36px 24px 72px; }
+    section { max-width: 1100px; margin: 0 auto 28px; background: rgba(17,24,39,.86); border: 1px solid var(--line); border-radius: 18px; padding: 28px; box-shadow: 0 20px 55px rgba(0,0,0,.22); }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 16px; }
+    .card { background: rgba(15,23,42,.88); border: 1px solid var(--line); border-radius: 14px; padding: 18px; }
+    .card p { color: var(--muted); margin-top: 8px; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .safe { border-left: 4px solid var(--accent2); background: rgba(34,197,94,.08); padding: 16px 18px; border-radius: 10px; }
+    table { width: 100%; border-collapse: collapse; overflow: hidden; }
+    th, td { border-bottom: 1px solid var(--line); padding: 12px; text-align: left; vertical-align: top; }
+    th { color: #bfdbfe; }
+    footer { text-align: center; color: var(--muted); padding: 30px; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="badge">Six-Month Remote Engineering Project</div>
+      <h1>Remote Structural Collapse Test Lab</h1>
+      <p class="lead">A safe remote-first project for model-structure collapse testing, synchronized sensor capture, camera review, Python analytics, and Blender simulation.</p>
+    </div>
+  </header>
+  <main>
+    <section>
+      <h2>Project Overview</h2>
+      <p>This site organizes a two-collaborator engineering project through five gated phases. It provides the documentation, management workflow, data conventions, and safe code subprojects needed to build a reproducible measurement and simulation workflow.</p>
+      <div class="safe"><strong>Safety boundary:</strong> This project is scoped for non-pyrotechnic structural testing only. It does not include modified fireworks, explosive materials, ignition circuits, remote initiation, or blast-charge procedures.</div>
+    </section>
+
+    <section>
+      <h2>Development Phases</h2>
+      <div class="grid">
+        <div class="card"><h3>Phase 1</h3><p>Repository setup, bench data logging, safety checklist, and CSV/JSON schema.</p></div>
+        <div class="card"><h3>Phase 2</h3><p>Basic printed structures, weak-point geometry, and repeatable safe collapse tests.</p></div>
+        <div class="card"><h3>Phase 3</h3><p>Dual-camera views, timestamp validation, and remote review workflow.</p></div>
+        <div class="card"><h3>Phase 4</h3><p>Automated sync, Python analytics, plots, and Blender comparison notes.</p></div>
+        <div class="card"><h3>Phase 5</h3><p>Integrated model city demonstration, final data package, and release notes.</p></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Repository Navigation</h2>
+      <table>
+        <tr><th>Area</th><th>Link</th><th>Purpose</th></tr>
+        <tr><td>Full Plan</td><td><a href="../docs/project-plan.md">docs/project-plan.md</a></td><td>Six-month plan, Gantt chart, BOM, diagrams, risk register, and logistics.</td></tr>
+        <tr><td>Development</td><td><a href="../docs/development-workflow.md">docs/development-workflow.md</a></td><td>Branching, versioning, release, and known-good-vector rules.</td></tr>
+        <tr><td>Management</td><td><a href="../docs/management-instructions.md">docs/management-instructions.md</a></td><td>Meetings, issue labels, roles, budget tracking, and decision logs.</td></tr>
+        <tr><td>Roadmap</td><td><a href="../docs/phase-roadmap.md">docs/phase-roadmap.md</a></td><td>Phase-by-phase development through all project stages.</td></tr>
+        <tr><td>Code</td><td><a href="../host-tools/analytics/">host-tools/analytics/</a></td><td>Safe analytics scripts for recorded sensor data.</td></tr>
+      </table>
+    </section>
+  </main>
+  <footer>Remote Structural Collapse Test Lab — Safe model testing, measurement, and simulation.</footer>
+</body>
+</html>

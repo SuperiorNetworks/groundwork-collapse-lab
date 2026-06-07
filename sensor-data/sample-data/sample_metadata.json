@@ -1,0 +1,14 @@
+{
+  "test_id": "T2026-07-18-001",
+  "date": "2026-07-18",
+  "phase": "Phase 1",
+  "operator": "local-operator",
+  "firmware_version": "sensor_logger v0.1.0",
+  "data_schema_version": "0.1.0",
+  "structure_id": "bench-dry-run",
+  "fixture_id": "no-physical-fixture",
+  "sensor_config": "sound_1_20hz_manual_marker",
+  "camera_files": [],
+  "result_summary": "Sample data file for analytics workflow demonstration.",
+  "pass_fail": "pass"
+}
