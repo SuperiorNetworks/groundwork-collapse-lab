@@ -1,15 +1,15 @@
-# GROUNDWORK — Sensor Pipeline & Simulation Lab
+# DOWNRANGE DOCUMENT — Sensor Pipeline & Simulation Lab
 
 > *Measure it. Model it. Prove it.*
 
-**Part of the [Iron District](https://github.com/SuperiorNetworks/showctrl-lab) project.**  
+**Part of the [Demolition Derby](https://github.com/SuperiorNetworks/showctrl-lab) project.**  
 **Built by DJ (Dayton, OH) and David (Detroit, MI)**
 
 ---
 
-## What Is GROUNDWORK?
+## What Is DOWNRANGE DOCUMENT?
 
-GROUNDWORK is the data and fabrication backbone of Iron District. It covers everything that happens outside the browser — the Arduino sensor logger that captures what physically happens during a test, the Python analytics pipeline that turns raw CSV into plots and statistics, the Blender simulation workflow that compares the model against reality, and the six-month project plan that keeps DJ and David on track across two cities.
+DOWNRANGE DOCUMENT is the data and fabrication backbone of Demolition Derby. It covers everything that happens outside the browser — the Arduino sensor logger that captures what physically happens during a test, the Python analytics pipeline that turns raw CSV into plots and statistics, the Blender simulation workflow that compares the model against reality, and the six-month project plan that keeps DJ and David on track across two cities.
 
 > **Safety boundary:** All physical testing in this project uses non-pyrotechnic, non-explosive, low-energy mechanical methods — servo-triggered pin releases, solenoid latch releases, gravity-loaded test rigs, and elastic-band stored-energy fixtures. See [`docs/safety-and-scope.md`](docs/safety-and-scope.md) for the full compliance boundary.
 
@@ -18,7 +18,7 @@ GROUNDWORK is the data and fabrication backbone of Iron District. It covers ever
 ## Repository Structure
 
 ```
-groundwork-collapse-lab/
+downrange-document/
 ├── docs/                        # Project documentation
 │   ├── project-plan.md          # Full six-month plan with Gantt and budget
 │   ├── phase-roadmap.md         # Phase-by-phase breakdown
@@ -154,7 +154,7 @@ ftp.sndaten.com/irondistrict/
 |---|---:|---|---|---|
 | **1 — FOUNDATION** | 1–4 | Lay the Ground | Sensor logger, repo setup, safety checklist, data schema | 10 consecutive dry-run captures with complete logs |
 | **2 — VALIDATION** | 5–8 | First Strike | First physical test, sensor calibration, Python analytics | Sensor data captured and plotted; 3+ triggers fire correctly |
-| **3 — OBSERVATION** | 9–12 | Eyes Open | Dual-camera rig, timestamp alignment, sprite capture | Camera streams in BLACKOUT; sprites flip on relay state change |
+| **3 — OBSERVATION** | 9–12 | Eyes Open | Dual-camera rig, timestamp alignment, sprite capture | Camera streams in DETONATOR; sprites flip on relay state change |
 | **4 — PIPELINE** | 13–20 | The Machine | Automated VPS sync, Blender calibration, full pipeline | End-to-end pipeline runs unattended; Blender sim matches test video |
 | **5 — FINAL EVENT** | 21–26 | The District Falls | Full show run on modular city, debrief, v1.0 release | Show runs start-to-finish; all artifacts tagged and published |
 
@@ -163,8 +163,8 @@ ftp.sndaten.com/irondistrict/
 ## Quick Start
 
 ```bash
-git clone https://github.com/SuperiorNetworks/remote-collapse-lab.git
-cd remote-collapse-lab
+git clone https://github.com/SuperiorNetworks/downrange-document.git
+cd downrange-document
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r host-tools/analytics/requirements.txt
@@ -177,8 +177,8 @@ python host-tools/analytics/analyze_sensor_log.py sensor-data/sample-data/sample
 
 | Repo | Description |
 |------|-------------|
-| [Iron District (master hub)](https://github.com/SuperiorNetworks/showctrl-lab) | Six-month project plan, Gantt, budget, phase gates |
-| [BLACKOUT](https://github.com/SuperiorNetworks/tdisplay-show-control-editor) | Browser show-control editor — audio timeline, relay triggers, live workflow |
+| [Demolition Derby (master hub)](https://github.com/SuperiorNetworks/showctrl-lab) | Six-month project plan, Gantt, budget, phase gates |
+| [DETONATOR](https://github.com/SuperiorNetworks/tdisplay-show-control-editor) | Browser show-control editor — audio timeline, relay triggers, live workflow |
 
 ---
 

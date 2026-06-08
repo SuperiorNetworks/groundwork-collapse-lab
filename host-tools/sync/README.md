@@ -8,7 +8,7 @@ Use a test ID folder for every run. The local folder and remote folder should ma
 
 ```text
 local:  sensor-data/raw/2026/07/T2026-07-18-001/
-remote: /srv/remote-collapse-lab/tests/2026/07/T2026-07-18-001/
+remote: /srv/downrange-document/tests/2026/07/T2026-07-18-001/
 ```
 
 ## Example rsync Command
@@ -16,9 +16,9 @@ remote: /srv/remote-collapse-lab/tests/2026/07/T2026-07-18-001/
 Replace placeholders with your own server and path. Do not commit private keys, usernames, passwords, or tokens.
 
 ```bash
-rsync -avz sensor-data/raw/2026/07/T2026-07-18-001/ user@example-server:/srv/remote-collapse-lab/tests/2026/07/T2026-07-18-001/
+rsync -avz sensor-data/raw/2026/07/T2026-07-18-001/ user@example-server:/srv/downrange-document/tests/2026/07/T2026-07-18-001/
 ```
 
 ## Public Repository Reminder
 
-Before publishing the repository, remove private hostnames, usernames, access tokens, SSH keys, raw footage with identifiable people, and any unsafe experimental notes. If a public example is needed, use placeholders such as `user@example-server` and `/srv/remote-collapse-lab/`.
+Before publishing the repository, remove private hostnames, usernames, access tokens, SSH keys, raw footage with identifiable people, and any unsafe experimental notes. If a public example is needed, use placeholders such as `user@example-server` and `/srv/downrange-document/`.
